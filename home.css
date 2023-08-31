@@ -1,0 +1,75 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+main{
+    background-color: #E9F7EF ;
+}
+
+header{
+    background:url(head-back.png) no-repeat center center fixed;
+	background-size:cover;
+	height:250px;
+	width: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.imagen_logo{
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+nav{
+    position: absolute;
+    top: 75px;
+    right: 0;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0px 0px 0px 15px;
+}
+
+nav a:hover{
+    color: #c78c19;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 1000;
+    font-size: 27px;
+    text-decoration: none;
+}
+
+.principal{
+    background: #FEFEFE;
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+    background-color: #E9F7EF;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 18rem;
+    clear: left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+
